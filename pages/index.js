@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Layout from "../components/layout"
+import About from "../components/about"
+import Projects from "../components/projects"
 import MDList from "../components/MDList"
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
@@ -8,7 +10,8 @@ import ReactMarkdown from 'react-markdown'
 const Index = ({allMD}) => {
 
   return (<Layout>
-    <h1>Hello World</h1>
+    <About />
+    <Projects />
     {/* <MDList posts={allMD}/> */}
   </Layout>)
 }

@@ -9,7 +9,7 @@ const Index = ({allMD}) => {
 
   return (<Layout>
     <h1>Hello World</h1>
-    <MDList posts={allMD}/>
+    {/* <MDList posts={allMD}/> */}
   </Layout>)
 }
 

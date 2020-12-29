@@ -1,9 +1,9 @@
 const Header = () => {
     return(<header>
-        <div>
-        <h1>Caitlin Moore-Penaskovic Codes</h1>
-        <h3>Full-Stack Web Developer</h3>
-        <h3>cait.moorepenaskovic@gmail.com</h3>
+        <div className="header-container">
+        <h1 className="header-name">Caitlin Moore-Penaskovic Codes</h1>
+        <h3 className="header-sei">Full-Stack Web Developer</h3>
+        <h3 className="header-contact">cait.moorepenaskovic@gmail.com</h3>
         </div>
         {/* <div>
             <ul>
@@ -12,9 +12,7 @@ const Header = () => {
                 <li>Social Media</li>
             </ul>
         </div> */}
-        <div>
-            <h1>CMP Codes</h1>
-        </div>
+        <hr/>
     </header>)
 }
 

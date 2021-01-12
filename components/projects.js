@@ -16,7 +16,7 @@ const Projects = () => {
             </div>
             <br />
             <div className="projects-container">
-                <div className="picture"></div>
+                <div className="picture"><img src="https://i.imgur.com/JzYSbXj.jpg" height="220px" width="150px" /></div>
                 <div className="project-info">
                 <h2>Critique Match: Mini Ruby on Rails and React App</h2>
                 <p>A full CRUD app which allows users to post their writing work in order to match with critique partners.
@@ -28,7 +28,7 @@ const Projects = () => {
             </div>
             <br />
             <div className="projects-container">
-                <div className="picture"><h4>Picture Here</h4></div>
+                <div className="picture"><img src="https://i.imgur.com/m1hJptg.jpg" height="220px" width="150px" /></div>
                 <div className="project-info">
                 <h2>Writing Prompts Daily: Full-Stack MERN App</h2>
                 <p>This MERN app allows users to receive a randomized writing prompt and create posts.<br />

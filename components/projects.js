@@ -35,8 +35,8 @@ const Projects = () => {
             Technologies used: Node.js, Express, EJS, CSS, and Mongoose.</p>
                 <a href="https://cmp-zenproject2.herokuapp.com/">Project Link</a>
                 </div>
-            {/* </div>
-                <div className="projects-container">
+            </div>
+                {/* <div className="projects-container">
                     <div className="picture"><img src="https://i.imgur.com/m1hJptg.jpg" height="220px" width="150px" /></div>
                     <div className="project-info">
                         <h2>sayHi!: Full-Stack MERN App</h2>
@@ -44,8 +44,8 @@ const Projects = () => {
             Technologies used: Node.js, Express, EJS, CSS, and Mongoose.</p>
                         <a href="https://cmp-zenproject2.herokuapp.com/">Project Link</a>
                     </div>
-                </div>
-            </div> */}
+                </div> */}
+            </div> 
             <div className="white-space"></div>
         </div>
     )
@@ -54,4 +54,4 @@ const Projects = () => {
 export default Projects
 
 
-    // < img src = "https://i.imgur.com/xDFagBg.jpg" />
+    {/* // < img src = "https://i.imgur.com/xDFagBg.jpg" /> */}
